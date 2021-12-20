@@ -1,5 +1,5 @@
 let questions = [
-    {
+      {  
         title: "Commonly used data types DO NOT include:",
         choices: ["strings", "booleans", "alerts", "numbers"],
         answer: "alerts"
@@ -11,9 +11,7 @@ let questions = [
       },
       {
         title: "Arrays in JavaScript can be used to store ____.",
-        choices: [
-          "numbers and strings", "other arrays", "booleans", "all of the above"
-        ],
+        choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
         answer: "all of the above"
       },
       {
