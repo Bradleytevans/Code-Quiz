@@ -14,5 +14,5 @@ function clearHighscores() {
 	window.localStorage.removeItem("highscores");
 	window.location.reload();
 }
-document.getelementbyId("clear").onclick = clearHighscores;
-printHigshcores();
+document.getElementById("clear").onclick = clearHighscores;
+printHighscores();
