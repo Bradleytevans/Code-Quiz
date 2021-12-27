@@ -1,12 +1,12 @@
 function printHighscores() {
-	var highscores = JSON.parse(window.localStorage.getItem('Highscores')) || [];
+	var highscores = JSON.parse(window.localStorage.getItem("highscores")) || [];
 	highscores.sort((a, b) => {
 		return b.score - a.score;
 	});
 	highscores.forEach((score) => {
 		var li = document.createElement("li");
 		li.textContent = score.initials + '-' + score.score;
-		var ol = document.getElementsById('highscores');
+		var ol = document.getElementById('highscores');
 		ol.appendChild(li);
 	});
 }
