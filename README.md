@@ -14,7 +14,7 @@ A fun and simple quiz that tests a users coding knowledge, and allows them to st
 * [Questions](#questions)
 
 ## Installation
-Visit the website linked in the readme
+Visit the website linked here: https://bradleytevans.github.io/Code-Quiz/
 
 ## Usage
 
