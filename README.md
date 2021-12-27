@@ -16,20 +16,8 @@ A fun and simple quiz that tests a users coding knowledge, and allows them to st
 ## Installation
 Visit the website linked here: https://bradleytevans.github.io/Code-Quiz/
 
-## Usage
 
-![1](https://user-images.githubusercontent.com/87036647/147430272-37859fee-17e8-40cd-8490-05e5b7cde1aa.png)
-![2](https://user-images.githubusercontent.com/87036647/147430334-fe72ebb0-1078-40ac-9dc6-d5547350e824.png)
-![3](https://user-images.githubusercontent.com/87036647/147430293-449acf43-e409-4fe3-94d0-654b1a1d9df7.png)
-![4](https://user-images.githubusercontent.com/87036647/147430298-83cfa58a-e818-43d7-af23-ebc732610883.png)
-
-## License
 This project is covered under the GNU_AGPLv3 license.
-
-## Contributing
-
-
-## Tests
 
 
 ## Questions 
