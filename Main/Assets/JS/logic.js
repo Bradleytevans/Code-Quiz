@@ -5,14 +5,14 @@ var questionsEl = document.getElementById("questions");
 var timerEl = document.getElementById("time");
 var ChoicesEl = document.getElementById("choices");
 var submitBtn = document.getElementById("submit");
-var startBtn = document.getElElementById("start");
+var startBtn = document.getElementById("start");
 var initialsEl = document.getElementById("initials");
 var feedbackEl = document.getElementById("feedback");
 
 function startQuiz() {
-	var startEl = document.getElEmentById("start");
+	var startEl = document.getElementById("start");
 	startEl.setAttribute("class", "hide");
-	questionsEL.removeAttribute("class");
+	questionsEl.removeAttribute("class");
 	timerId = setInterval(clockTick, 1000);
 	timerEl.textContent = time;
 	getQuestion();
