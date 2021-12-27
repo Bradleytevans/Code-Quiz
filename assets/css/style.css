@@ -1,10 +1,15 @@
 body {
 	font-family: Arial;
 	font-size: 120%;
+	background-color: gray;
+}
+
+.high	{
+	background-color: gray;
 }
 
 a {
-	color: #563d7c;
+	color: lime;
 	text-decoration: none;
 	transition: color 0.1s;
 }
@@ -18,12 +23,13 @@ button {
 	margin: 5px;
 	cursor: pointer;
 	font-size: 100%;
-	background-color: #563d7c;
+	background-color: black;
 	border-radius: 5px;
 	padding: 2px 10px;
-	color: white;
+	color: lime;
 	border: 0;
 	transition: background-color 01s;
+	box-shadow: lightgrey 0 1px 3px 5px;
 }
 
 button:hover {
@@ -49,13 +55,20 @@ li {
 	list-style: decimal inside none;
 }
 
-li:nth-child(odd) {
-	background-color: #f3edfc;
-}
+
 
 .wrapper {
 	margin: 100px auto 0 auto;
 	max-width: 600px;
+	cursor: pointer;
+	font-size: 100%;
+	background-color: black;
+	border-radius: 5px;
+	padding: 2px 10px;
+	color: lime;
+	border: 0;
+	transition: background-color 01s;
+	box-shadow: lightgrey 0 1px 3px 5px;
 }
 
 .hide {
@@ -70,6 +83,20 @@ li:nth-child(odd) {
 	position: absolute;
 	top: 10px;
 	left: 10px;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 100%;
+	background-color: black;
+	border-radius: 5px;
+	padding: 2px 10px;
+	color: lime;
+	border: 0;
+	transition: background-color 01s;
+	box-shadow: lightgrey 0 1px 3px 5px;
+}
+
+a:visited{
+	color: lime;
 }
 
 .feedback {
@@ -85,4 +112,14 @@ li:nth-child(odd) {
 	position: absolute;
 	top: 10px;
 	right: 10px;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 100%;
+	background-color: black;
+	border-radius: 5px;
+	padding: 2px 10px;
+	color: lime;
+	border: 0;
+	transition: background-color 01s;
+	box-shadow: lightgrey 0 1px 3px 5px;
 }
