@@ -7,10 +7,7 @@ A fun and simple quiz that tests a users coding knowledge, and allows them to st
 
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
